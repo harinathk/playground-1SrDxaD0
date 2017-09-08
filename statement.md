@@ -20,8 +20,24 @@ public static void main(String[] args) {
 
 }
 //}
+
+# Convert String to Char Array Using Java 8
+Use .chars() to get the IntStream, and convert it to Stream Char using .mapToObj
+
+```java runnable
+// { autofold
+public class Main {
+
+public static void main(String[] args) {
+// }
+ String techioStr = "TechIO Playground";
+ techioStr.chars() //IntStream
+         .mapToObj(x -> (char) x)//Stream<Character>
+        .forEach(System.out::println);
+
+//{ autofold
+}
+
+}
+//}
 ```
-
-# Advanced usage
-
-If you want a more complex example (external libraries, viewers...), use the [Advanced Java template](https://tech.io/select-repo/385)
