@@ -1,4 +1,4 @@
-# Convert String to Char Array
+# Using String.toCharArray()
 
 Use String.toCharArray() to convert a String into a char array
 
@@ -21,7 +21,7 @@ public static void main(String[] args) {
 }
 //}
 ```
-# Convert String to Char Array Using Java 8
+# Convert String to Char Array Using Java 8 Stream
 Use .chars() to get the IntStream, and convert it to Stream Char using .mapToObj
 
 ```java runnable
