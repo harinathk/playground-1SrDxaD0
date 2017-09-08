@@ -1,6 +1,6 @@
-# Welcome!
+# Convert String to Char Array
 
-This Java template lets you get started quickly with a simple one-page playground.
+Use String.toCharArray() to convert a String into a char array
 
 ```java runnable
 // { autofold
@@ -9,8 +9,11 @@ public class Main {
 public static void main(String[] args) {
 // }
 
-String message = "Hello World!";
-System.out.println(message);
+ String techioStr = "TechIO Playground";
+ char[] techioCharArray = techioStr.toCharArray()
+ for (char techioChar : techioCharArray) {
+    System.out.println(techioChar);
+ }
 
 //{ autofold
 }
