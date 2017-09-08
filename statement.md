@@ -10,7 +10,7 @@ public static void main(String[] args) {
 // }
 
  String techioStr = "TechIO Playground";
- char[] techioCharArray = techioStr.toCharArray()
+ char[] techioCharArray = techioStr.toCharArray();
  for (char techioChar : techioCharArray) {
     System.out.println(techioChar);
  }
